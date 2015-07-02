@@ -1,0 +1,4 @@
+node:
+  image: williamyeh/wrk:latest
+  command: -c 1000 -t 10 -d 120 -HHost:\ lol.localdomain http://192.168.0.14:8080
+
